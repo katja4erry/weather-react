@@ -1,38 +1,134 @@
+body {
+  font-family: PT "Courier New", Courier, monospace;
+}
+
 .App {
-  text-align: center;
+  margin: 20px;
+  max-width: 600px;
+  margin: 30px auto;
+  padding: 20px;
+  border: 1px solid #085686;
+  border-radius: 7px;
+  background: radial-gradient(rgb(0, 135, 201) 0%, rgb(7, 58, 146) 100%);
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.App h1 {
+  color: white;
+}
+.App h1 {
+  font-size: 36px;
+  font-weight: 600;
+  line-height: 28px;
+}
+.App .temp {
+  color: white;
+  font-size: 64px;
+  font-weight: 200;
+  line-height: 28px;
+}
+.App li {
+  list-style: none;
+}
+.App ul {
+  margin: 0;
+  padding: 0;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.App .day-time {
+  font-size: 20px;
+  font-weight: 150;
+  color: white;
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+.App .humid-wind {
+  padding-top: 15px;
+  font-size: 16px;
+  font-weight: 100;
+  line-height: 24px;
+  color: #89c2eb;
+}
+.App .humid-icon {
+  margin-right: 5px;
+}
+.App .wind-icon {
+  margin-right: 5px;
+}
+.App .weather-icon {
+  width: 280px;
+}
+.App .units {
+  font-size: 64px;
+  font-weight: 200;
+  line-height: 28px;
   color: white;
 }
 
-.App-link {
-  color: #61dafb;
+.App .temp-value {
+  padding-top: 15px;
+  padding-left: 25px;
+}
+.App .description:first-letter {
+  text-transform: capitalize;
+}
+.App .description {
+  padding-top: 15px;
+}
+.App .button {
+  color: rgb(7, 58, 146);
+}
+.App .button:hover {
+  background-color: #3f8fcc;
+  color: white;
+
+  transition: all 200ms ease-in;
+}
+.App .source-link {
+  color: #1768ff;
+  text-decoration: underline;
+}
+.App .source-link:hover {
+  text-decoration: none;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.App .temp-value .active {
+  color: white;
+  text-decoration: none;
+  cursor: default;
+}
+.App .temp-value .active:hover {
+  text-decoration: none;
+}
+.App a {
+  text-decoration: none;
+  color: #3f8fcc;
+}
+.App a:hover {
+  color: #469cff;
+}
+
+.App .weather-forecast {
+  margin-top: 20px;
+  text-align: center;
+}
+.App .weather-forecast-date {
+  font-size: 18px;
+  font-weight: 100;
+  line-height: 24px;
+  color: #89c2eb;
+  margin-top: 15px;
+}
+.App .weather-forecast-temperatures {
+  font-size: 15px;
+  color: white;
+}
+
+.App .weather-forecast-temperature-min {
+  opacity: 0.6;
+}
+.App .weathet-forecast-collom {
+  border: 1px solid #3165ae;
+  border-radius: 7px;
+  background: #3165ae;
+  margin: 5px;
+  max-width: 87px;
+  padding: 15px 0 15px 0;
 }
