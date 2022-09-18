@@ -7,7 +7,7 @@ body {
   max-width: 600px;
   margin: 30px auto;
   padding: 20px;
-  margin-bottom: 0 !important;
+  margin-bottom: 10px !important;
   border: 1px solid #085686;
   border-radius: 7px;
   background: radial-gradient(rgb(0, 135, 201) 0%, rgb(7, 58, 146) 100%);
@@ -18,7 +18,7 @@ body {
 }
 .App h1 {
   font-size: 36px;
-  font-weight: 600;
+  font-weight: 500;
   line-height: 28px;
 }
 .App .temp {
